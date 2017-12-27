@@ -1,0 +1,23 @@
+import java.util.*
+
+val FIELD_WIDTH = 150
+val FIELD_HEIGHT = 100
+val STATIC_COUNT = 400
+val CELL_SIZE = 10
+val START_HEALTH = 100
+val MEMORY_SIZE = 64
+val STACK_LIMIT = 10
+val INSTRUCTIONS_COUNT = 64
+val NEIGHBOURS_COUNT = 8
+val CODE_LENGTH = 64
+
+val MOVE_COST = 10
+val LOOK_COST = 3
+val ROTATE_COST = 5
+val INTERACT_COST = 4
+val INNER_COST = 1
+
+val FOOD_HEALTH = 20
+val MINIMAL_SIZE = 20
+
+val random = Random()
